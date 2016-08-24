@@ -8,8 +8,6 @@ Uses http://software77.net/geo-ip/multi-lookup/
 
 ...2000 ips at a time
 
-Written by nckid, August 2016
-
 
 UPDATES:
 
@@ -29,26 +27,6 @@ TO-DO:
 -Progress bar
 
 
-
-HOW TO USE:
-
-switches:
-
--h		help
-
-
--i		specify input file
-
--o		specify output file
-
-
-default values:
-
-input: "ips_huge.txt"
-
-output: "ips_clean_geo.txt"
-
-
 example without switch:
 
 	python web_ipgeo.py
@@ -64,5 +42,5 @@ example with both switches:
 	python web_ipgeo.py -i my_ips.txt -o ip_geo.txt
 	
 
-UNTESTED ON WINDOWS :)
+UNTESTED ON WINDOWS
 
