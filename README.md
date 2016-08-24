@@ -1,5 +1,5 @@
 # web_ipgeo
----------------------------------------------------------------------------
+
 DIYish IP GeoLocation tool
 Uses http://software77.net/geo-ip/multi-lookup/
 ...since it allows a large number of lookups
@@ -15,9 +15,9 @@ WANTS:
 -Single IP lookups
 -Verbose switch
 -Progress bar
----------------------------------------------------------------------------
 
----------------------HOW TO USE---------------------
+
+HOW TO USE:
 switches:
 -h		help
 
@@ -38,4 +38,4 @@ example with both switches:
 	python web_ipgeo.py -i my_ips.txt -o ip_geo.txt
 
 UNTESTED ON WINDOWS :)
-----------------------------------------------------
+
