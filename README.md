@@ -9,7 +9,7 @@ Uses http://software77.net/geo-ip/multi-lookup/
 ...2000 ips at a time
 
 
-######UPDATES:
+#####UPDATES:
 
 - Removed unneeded loop for args and added default values (Thanks Mike)
 
@@ -18,7 +18,7 @@ Uses http://software77.net/geo-ip/multi-lookup/
 - Corrected top comments, since the site doesn't allow unlimited lookups
 
 
-######TO-DO:
+#####TO-DO:
 
 - Single IP lookups
 
@@ -27,17 +27,17 @@ Uses http://software77.net/geo-ip/multi-lookup/
 - Progress bar
 
 
-example without switch:
+######example without switch:
 
 	```python web_ipgeo.py```
 	
 
-example with custom output switch:
+######example with custom output switch:
 
 	```python web_ipgeo.py -o ip_geo.txt```
 	
 
-example with both switches:
+######example with both switches:
 
 	```python web_ipgeo.py -i my_ips.txt -o ip_geo.txt```
 	
