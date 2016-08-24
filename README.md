@@ -20,7 +20,7 @@ UPDATES:
 -Corrected top comments, since the site doesn't allow unlimited lookups
 
 
-WANTS:
+TO-DO:
 
 -Single IP lookups
 
