@@ -9,38 +9,38 @@ Uses http://software77.net/geo-ip/multi-lookup/
 ...2000 ips at a time
 
 
-UPDATES:
+######UPDATES:
 
--Removed unneeded loop for args and added default values (Thanks Mike)
+- Removed unneeded loop for args and added default values (Thanks Mike)
 
--Fixed IO and OS Errors in clean() by adding exception handling
+- Fixed IO and OS Errors in clean() by adding exception handling
 
--Corrected top comments, since the site doesn't allow unlimited lookups
+- Corrected top comments, since the site doesn't allow unlimited lookups
 
 
-TO-DO:
+######TO-DO:
 
--Single IP lookups
+- Single IP lookups
 
--Verbose switch
+- Verbose switch
 
--Progress bar
+- Progress bar
 
 
 example without switch:
 
-	python web_ipgeo.py
+	```python web_ipgeo.py```
 	
 
 example with custom output switch:
 
-	python web_ipgeo.py -o ip_geo.txt
+	```python web_ipgeo.py -o ip_geo.txt```
 	
 
 example with both switches:
 
-	python web_ipgeo.py -i my_ips.txt -o ip_geo.txt
+	```python web_ipgeo.py -i my_ips.txt -o ip_geo.txt```
 	
 
-UNTESTED ON WINDOWS
+_UNTESTED ON WINDOWS_
 
