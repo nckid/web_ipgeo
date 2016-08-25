@@ -29,17 +29,17 @@ Uses http://software77.net/geo-ip/multi-lookup/
 
 ######example without switch:
 
-	```python web_ipgeo.py```
+	python web_ipgeo.py
 	
 
 ######example with custom output switch:
 
-	```python web_ipgeo.py -o ip_geo.txt```
+	python web_ipgeo.py -o ip_geo.txt
 	
 
 ######example with both switches:
 
-	```python web_ipgeo.py -i my_ips.txt -o ip_geo.txt```
+	python web_ipgeo.py -i my_ips.txt -o ip_geo.txt
 	
 
 _UNTESTED ON WINDOWS_
